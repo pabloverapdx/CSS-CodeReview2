@@ -140,7 +140,7 @@ body {
   }
 }
 /*END MOBILE VIEW*/
-/*-----------------------------------------------------------------------*/
+
 /* START OF TABLET VIEW*/
 @media only screen and (min-width: 780px) {
 
@@ -249,10 +249,13 @@ body {
     height: 1000px;
   }
 
+  .nav {
+    margin-left: 190px;
+  }
+
   img {
     width: 70%;
     height: 1000px;
-    position: absolute;
     padding: 0;
     margin: 0;
     float: left;
@@ -260,26 +263,33 @@ body {
 
   .article1 {
     display: none;
-    border: 10px solid red;
   }
 
   .article2 {
-    position: relative;
     float: right;
     width: 29%;
     height: 50%;
     margin: 0;
     padding: 0;
-    /*clear: both;*/
   }
 
   .article3 {
-    position: relative;
     float: right;
     width: 29%;
     height: 50%;
     margin: 0;
     padding: 0;
-    clear: both;
+  }
+
+  .p-article2, .p-article3 {
+    text-align: center;
+  }
+
+  .p-article3 {
+    font-size: 22px;
+  }
+
+  #featured-press {
+    line-height: 60px;
   }
 }
