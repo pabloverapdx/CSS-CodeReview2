@@ -48,7 +48,7 @@ body {
 }
 
 /*MOBILE VIEW*/
-@media only screen and (min-width: 380px) {
+@media only screen and (min-width: 375px) {
 
   .wrapper {
     width: 100%;
@@ -130,7 +130,7 @@ body {
 /*END MOBILE VIEW*/
 
 /* START OF TABLET VIEW*/
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
 
   body {
     background-color: white;
