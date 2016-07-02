@@ -172,7 +172,7 @@ body {
   }
   .article2 {
     width: 49%;
-    height: 35%;
+    height: 30%;
     background-color: #051901;
     float: left;
     margin: 0;
@@ -182,7 +182,7 @@ body {
 
   .article3 {
     width: 49%;
-    height: 35%;
+    height: 30%;
     background-color: #090808;
     float: right;
     margin: 0;
@@ -205,16 +205,17 @@ body {
 
   #the-books {
     position: absolute;
-    left: 50%; top: 43%;
+    left: 50%; top: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
     text-align: center;
   }
-
   .p-article3 {
-    position: absolute;
-    text-align: justify;
-    padding: 10%;
+    position: relative;
+    font-size: 18px;
+    left: 50%; top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
 /* END TABLET VIEW -----------------------------------------------------------*/
@@ -229,12 +230,14 @@ body {
 
   .wrapper {
     width: 100%;
-    height: 50em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   img {
     width: 70%;
-    height: 50em;
+    height: 100%;
     padding: 0;
     margin: 0;
     float: left;
@@ -247,27 +250,31 @@ body {
   .article2 {
     float: right;
     width: 29%;
-    height: 24.5em;
+    height: 49.1%;
     padding: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1%;
   }
 
   .article3 {
     float: right;
     width: 29%;
-    height: 24.5em;
+    height: 49.1%;
     margin: 0;
     padding: 0;
   }
 
-  .p-article2, .p-article3 {
-    text-align: center;
+  #featured-press {
+    position: absolute;
+    left: 50%; top: 30%;
+    transform: translate(-50%, 100%);
+    font-size: 12px;
   }
 
-  .p-article3 {
-    position: relative;
-    font-size: 18px;
+  #the-books {
+    position: absolute;
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
   }
 }
