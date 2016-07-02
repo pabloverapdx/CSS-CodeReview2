@@ -32,7 +32,7 @@ body {
 }
 
 /*MOBILE VIEW*/
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 319px) {
 
   .wrapper {
     width: 100%;
@@ -203,7 +203,7 @@ body {
     margin: 0 auto;
     text-align: center;
   }
-  
+
   #the-books {
     position: absolute;
     left: 50%; top: 50%;
@@ -251,31 +251,19 @@ body {
   .article2 {
     float: right;
     width: 29%;
-    height: 49.1%;
+    height: 49%;
     padding: 0;
-    margin-bottom: 1%;
+    margin-bottom: 0.9%;
   }
 
   .article3 {
     float: right;
     width: 29%;
-    height: 49.1%;
+    height: 49%;
     margin: 0;
     padding: 0;
   }
-
   #featured-press {
     position: absolute;
     left: 50%; top: 30%;
-    transform: translate(-50%, 100%);
-    font-size: 12px;
-  }
-
-  #the-books {
-    position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    text-align: center;
-  }
 }
